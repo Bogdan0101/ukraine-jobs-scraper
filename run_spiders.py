@@ -1,3 +1,4 @@
+import datetime
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from scraper.spiders.douua import DouUaSpider
@@ -20,5 +21,13 @@ def run_spiders():
 
 
 if __name__ == "__main__":
+    start_time = datetime.datetime.now()
+
     run_spiders()
     save_to_db(data=stats_storage.data)
+
+    result_time = datetime.datetime.now() - start_time
+    total_seconds = int(result_time.total_seconds())
+    minutes = total_seconds // 60
+    seconds = total_seconds % 60
+    print(f"Scraper completion time: {minutes} minutes {seconds} seconds")
