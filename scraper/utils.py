@@ -1,5 +1,12 @@
-import re
+import regex as re
 from textblob import TextBlob
+import nltk
+
+try:
+    nltk.data.find("tokenizers/punkt_tab")
+except LookupError:
+    nltk.download("punkt_tab")
+    nltk.download("punkt")
 
 
 def get_level(*args: str) -> str:

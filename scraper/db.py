@@ -15,7 +15,7 @@ def save_to_db(data: dict):
 
     try:
         conn = psycopg2.connect(
-            dbname=os.getenv("POSTGRES_DB_NAME"),
+            dbname=os.getenv("POSTGRES_DB"),
             user=os.getenv("POSTGRES_USER"),
             password=os.getenv("POSTGRES_PASSWORD"),
             host=os.getenv("POSTGRES_HOST"),
