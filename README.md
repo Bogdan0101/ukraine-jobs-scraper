@@ -1,7 +1,7 @@
-[![Ukraine jobs scraper tests](https://github.com/Bogdan0101/ukraine-jobs-scraper/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Bogdan0101/ukraine-jobs-scraper/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/github/Bogdan0101/ukraine-jobs-scraper/graph/badge.svg?token=PP296SOCNR)](https://codecov.io/github/Bogdan0101/ukraine-jobs-scraper)
+[![Ukraine jobs scraper tests](https://github.com/Bogdan0101/ukraine-jobs-scraper/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Bogdan0101/ukraine-jobs-scraper/actions/workflows/tests.yml)  
+[![codecov](https://codecov.io/github/Bogdan0101/ukraine-jobs-scraper/graph/badge.svg?token=PP296SOCNR)](https://codecov.io/github/Bogdan0101/ukraine-jobs-scraper)  
 
-# Project description
+# Project description  
 
 Automated data pipeline for scraping, processing,  
 and visualizing the Python job market in Ukraine.  
