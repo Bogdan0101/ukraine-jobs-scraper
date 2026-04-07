@@ -1,4 +1,4 @@
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Bogdan0101/ukraine-jobs-scraper/tests.yml?branch=testing&label=Tests&style=flat-square)  
+[![Ukraine jobs scraper tests](https://github.com/Bogdan0101/ukraine-jobs-scraper/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Bogdan0101/ukraine-jobs-scraper/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/github/Bogdan0101/ukraine-jobs-scraper/graph/badge.svg?token=PP296SOCNR)](https://codecov.io/github/Bogdan0101/ukraine-jobs-scraper)
 
 # Project description
